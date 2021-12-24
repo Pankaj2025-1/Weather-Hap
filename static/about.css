@@ -1,0 +1,57 @@
+.back{
+    /* margin-top: -6px; */
+   
+    background-image: url('https://cdn.wallpapersafari.com/53/63/L5qlMB.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.red{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+footer{
+    /* border: 2px solid red; */
+    height: 35px;
+    background: black;
+    color: white;
+    text-align: center;
+    margin-top: -47px;
+    color: red;
+}
+#backyard{
+    display: flex;
+}
+.img img{
+    height: 50px;
+    width: 30%;
+    height: 171px;
+    width: 110%;
+}
+.img{
+    margin: 35px 170px;
+}
+
+.data{
+    margin-top: 50px;
+    font-size: 22px;
+    font-family: -webkit-body;
+    font-weight: 800;
+    color: white;
+    margin-left: 10px;
+}
+
+.text{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: auto;
+    /* border: 2px solid red; */
+}

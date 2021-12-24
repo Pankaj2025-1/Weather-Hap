@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://cdn.deepintent.com/syncpixel.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Cookie Sync</title>
+</head>
+<body marginwidth="0" marginheight="0">
+    <script type="text/javascript">
+        "use strict";
+        ! function() {
+            try {
+                var e = [5001, 5003, 5004, 5005, 5009, 5010, 5011],
+                    n = function(e) {
+                        return "https://"+ e
+                    },
+                    c = e[0],
+                    i = e.slice(1),
+                    r1 = Math.random().toString(36).substring(2),
+                    r2 = Math.random().toString(36).substring(2),
+                    s = {
+                        5000: "match.deepintent.com/usersync/101",
+                        5001: "match.deepintent.com/usersync/106",
+                        5003: "match.deepintent.com/usersync/108",
+                        5004: "match.deepintent.com/usersync/112",
+                        5005: "match.deepintent.com/usersync/113",
+                        5009: "match.deepintent.com/usersync/121",
+                        5010: "match.deepintent.com/usersync/126",
+                        5011: "match.deepintent.com/usersync/129",
+                        5012: "match3.deepintent.com/usersync/138/store?id=UNK&ext1=" + r1 + "&ext2=" + r2,
+                        5013: "match.deepintent.com/usersync/139/store?id=UNK&ext1=" + r1 + "&ext2=" + r2
+                    },
+                    p = new Image();
+                p.onload = function() {
+                  i.forEach(function(t) {
+                    (new Image).src = n(s[t])
+                  });
+                  return true;
+                };
+                if (p.complete) {
+                  p.onload();
+                }
+                p.src = n(s[c]);
+            } catch (t) {}
+        }();
+    </script>
+
+
+</body></html>

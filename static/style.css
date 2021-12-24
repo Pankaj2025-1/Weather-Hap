@@ -1,0 +1,174 @@
+#backyard{
+    margin-top: -6px;
+   
+    background-image: url('https://i.makeagif.com/media/5-14-2016/xSgjKw.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: yellow;
+  margin-top: 6px;
+  font-family: "Lobster", cursive;
+}
+
+/* .h1:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        font-size: 3.7rem;
+} */
+
+h2 {
+  text-align: center;
+  color: tomato;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.cunt {
+  background-color: revert;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  /* display: flex; */
+  justify-content: space-evenly;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  border-radius: 38px;
+}
+
+#text {
+    width: 346px;
+    border-radius: 6px;
+    height: 42px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(249, 251, 253);
+    font-family: ui-serif;
+    margin: 10px;
+    background: transparent;
+    border: 2px solid black;
+    outline: none;
+    margin-left: 95px;
+  
+}
+
+.container {
+  /* border: 2px solid red;
+    width: 500px;
+    height: 300px;
+    margin: auto; */
+  border: 3px solid rebeccapurple;
+  width: 551px;
+  height: 300px;
+  margin: auto;
+  border-radius: 59px;
+  margin-top: 18px;
+}
+
+p {
+  font-size: 40x;
+  font-weight: bold;
+  /* margin: auto; */
+}
+
+.data {
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: -4px;
+    color: blue;
+    font-family: system-ui;
+}
+
+#city_name {
+  font-size: 2rem;
+  text-align: center;
+  color: brown;
+}
+
+.cont1 {
+  /* border: 2px solid red; */
+  display: flex;
+  margin-top: 78px;
+}
+
+.box1 {
+  border: 4px solid #62626a;
+  border-radius: 20px;
+  margin: 34px;
+  margin-top: 18px;
+  height: 255px;
+  width: 312px;
+}
+
+::placeholder{
+    color:white;
+  
+}
+::placeholder::before{
+  opacity: 0.5;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: auto 83px;
+  color: crimson;
+  font-family: "Lobster";
+}
+
+.img1 img{
+    height: 167px;
+    width: 304px;
+    margin-top: -20px;
+    border-radius: 16px;
+}
+#btn{
+    font-size: 22px;
+    background: bottom;
+    border: none;
+    transform: scale3d(1.5, 1.5, 1.5);
+
+}
+.red{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+footer{
+    /* border: 2px solid red; */
+    height: 24px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+#alert{
+    text-align: center;
+    height: 20px;
+    border: 2px solid red;
+}
+.alert{
+    margin-top: -18px;
+    width: 26%;
+    margin-left: 550px;
+   
+}
+.search{
+    font-size: 25px;
+    background: transparent;
+    background-color: #85aaec;
+}
+.al{
+    /* border: 2px solid red; */
+    height: 73px;
+}
